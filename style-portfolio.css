@@ -1,0 +1,87 @@
+/* css stylesheet*/
+@font-face {
+  font-family: MarvinVisionsTrial;
+  src: url(MarvinVisionsTrial-Variable.tff);
+}
+html{
+  margin: 0;
+  padding: 0;
+  background-image: url("/Users/kizer/Desktop/FALL2020/digital publishing/directory/images/portfolio.jpeg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  cursor: url("/images/skull.gif"), inherit;
+}
+/* sidebar full height */
+.sidebar {
+  height: 100%;
+  width: 160px;
+  font-family: monospace;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  /* background-color: rgb(50, 157, 168); */
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+/* just for links */
+.sidebar a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: pink;
+  text-decoration: underline overline white;
+}
+
+.main {
+  margin-left: 160px; /* SAME AS WIDTH OF SIDEBAR!! */
+  padding: 0px 20px;
+}
+
+.body{
+  margin: 0;
+  padding: 0;
+}
+
+.h1{
+  font-family: MarvinVisionsTrial;
+  margin-left: 160px;
+  padding: 0px 20px;
+  color: white;
+}
+.h2{
+  margin-left: 160px;
+  padding: 0px 20px;
+  color: white;
+}
+.p{
+  font-family: monospace;
+  margin-left: 160px;
+  color: white;
+}
+
+.box1{
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 400px;
+  height: 250px;
+  padding: 10px 10px;
+  font-family: serif;
+
+}
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
